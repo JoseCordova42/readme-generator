@@ -3,6 +3,8 @@ function generateMarkdown(data) {
     return `
 # ${data.title}
 
+![${data.license}](https://img.shields.io/badge/License-${data.license.replace(" ", "%20")}-blue)
+
 ## Description
 
 ${data.description}
@@ -34,11 +36,11 @@ ${data.contribute}
 
 ## Tests
 
-${data.test}
+${data.tests}
 
 ## Questions
 
-Contact me at ${data.email} or view my work at https://github.com/${data.username}.
+Contact me at ${data.email} or view my work on [github](https://github.com/${data.username}).
   `;
   }
   

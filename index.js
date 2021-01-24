@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+// const generateMarkdown = require('./utils/generateMarkdown.js');
 const generateMD = require('./utils/generateMarkdown.js');
 
 // array of questions for user
@@ -25,9 +26,17 @@ const questions = [
         name: "usage"
     },
     {
-        type: "input",
+        type: "list",
         message: "What License does your project have?",
-        name: "license"
+        name: "license",
+        choices: [
+            "GNU GPLv3",
+            "Mozilla Public License 2.0",
+            "Apache 2.0",
+            "MIT",
+            "Boost Software License 1.0",
+            "Unlicense"
+        ]
     },
     {
         type: "input",
@@ -54,7 +63,7 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log('Success!')
+        err ? console.log(err) : console.log('Success! Your README file has been generated!')
     );
 }
 
