@@ -1,6 +1,6 @@
 # README Generator
 
-![GNU General Public License v3.0](https://img.shields.io/badge/Javascript-100%-blue.svg)
+![Javascript 100%](https://img.shields.io/badge/Javascript-100%25-blue)
 
 ## Description
 
