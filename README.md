@@ -14,6 +14,8 @@ Just enter `node index.js` in the command line and follow the prompts.
 
 ![demo readme](images/readme-demo.png)
 
+Here is a [Video Demo](https://drive.google.com/file/d/1DGdD3A_DP3kvE8KH1ooC7f_RLrtigZBI/view?usp=sharing) of how the README Generator works.
+
 ## License
 
 [![GNU General Public License v3.0](https://img.shields.io/badge/License-GNU%20GPLv3-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)

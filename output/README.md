@@ -1,11 +1,11 @@
 
-# Demo
+# Pro README Generator
 
-![Mozilla Public License 2.0](https://img.shields.io/badge/License-Mozilla%20Public%20License%202.0-blue)
+![Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue)
 
 ## Description
 
-Demonstrating the readme generator.
+Description
 
 ## Table of Contents
 
@@ -22,11 +22,11 @@ Install
 
 ## Usage
 
-Use
+Use it!
 
 ## License
 
-Mozilla Public License 2.0
+Apache 2.0
 
 ## Contributions
 
@@ -34,7 +34,7 @@ Contribute
 
 ## Tests
 
-Test
+Test it!
 
 ## Questions
 
